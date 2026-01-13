@@ -1,0 +1,50 @@
+body{
+    background-color: #ADBBDA;
+   
+    position:relative;
+    display: flex;
+    justify-content: center;
+   
+}
+.container{
+    overflow: hidden;
+}
+.card-text{
+    text-align: justify;
+    text-justify: distribute;
+    text-align-last: left;
+    border-radius: 25px;
+  
+}
+.card{
+    border-radius: 10px;
+}
+.vertical-center {
+    width: 800px;
+    height: 600px;
+    margin: 0;
+    position: absolute;
+
+    transform: translateY(25%);
+}
+h1{
+    margin-top: 25px;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#progress_text{
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+}
+#progress_bar{
+    /* display: none; */
+    width: 75%;
+    flex-direction: column;
+    align-self: center;
+}
+.container{
+    display: none;
+}
+      
+ 

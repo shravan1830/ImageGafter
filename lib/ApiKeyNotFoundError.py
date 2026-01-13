@@ -1,0 +1,2 @@
+class ApiKeyNotFoundError(Exception):
+    pass

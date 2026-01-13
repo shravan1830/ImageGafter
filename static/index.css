@@ -1,0 +1,51 @@
+
+body{
+    background-color: #ADBBDA;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+.upload_file{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: translateY(25%);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    height: 65vh; 
+}
+.btn_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:2.5px dashed black;
+    box-sizing: border-box;
+    padding:5vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    margin:0 20px;
+}
+.btn-lg{
+    width: 25vw;
+    border-radius:5px 20px;
+    background-color: #0a21c0;
+}
+h1{
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#tagline,.col-form-label{
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+}
+.svg_container{
+    max-width: 100px;
+}
